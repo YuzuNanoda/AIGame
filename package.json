@@ -1,0 +1,17 @@
+{
+  "name": "ai-werewolf-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "可部署到 Railway 的 AI 狼人杀远程联机版",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
